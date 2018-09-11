@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FantasticView: UIView {
+public class FantasticView: UIView {
 
     /*
     // Only override draw() if you perform custom drawing.
@@ -37,7 +37,7 @@ class FantasticView: UIView {
         scheduledColorChanged.fire()  //5
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
         // You don't need to implement this
