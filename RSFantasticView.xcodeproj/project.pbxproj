@@ -12,6 +12,7 @@
 		730DF26D2147F978009CA588 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730DF26B2147F978009CA588 /* Main.storyboard */; };
 		730DF26F2147F97C009CA588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 730DF26E2147F97C009CA588 /* Assets.xcassets */; };
 		730DF2722147F97C009CA588 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730DF2702147F97C009CA588 /* LaunchScreen.storyboard */; };
+		730DF27A2147F993009CA588 /* FantasticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730DF2792147F993009CA588 /* FantasticView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		730DF26E2147F97C009CA588 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		730DF2712147F97C009CA588 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		730DF2732147F97C009CA588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		730DF2792147F993009CA588 /* FantasticView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FantasticView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		730DF2662147F978009CA588 /* RSFantasticView */ = {
 			isa = PBXGroup;
 			children = (
+				730DF2792147F993009CA588 /* FantasticView.swift */,
 				730DF2672147F978009CA588 /* AppDelegate.swift */,
 				730DF2692147F978009CA588 /* ViewController.swift */,
 				730DF26B2147F978009CA588 /* Main.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				730DF26A2147F978009CA588 /* ViewController.swift in Sources */,
 				730DF2682147F978009CA588 /* AppDelegate.swift in Sources */,
+				730DF27A2147F993009CA588 /* FantasticView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +286,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RSFantasticView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,6 +304,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RSFantasticView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
